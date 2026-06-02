@@ -5,6 +5,7 @@ body{
 
 .container{
     width: 90%;
+    min-height: 100vh;
     margin: auto;
     background-color: white;
     box-shadow: 2px 2px 10px gray;
@@ -39,7 +40,7 @@ body{
 }
 
 .header ul li a:hover{
-    color: rgb(0, 110, 255);
+    color: rgb(5, 13, 99);
 }
 
 .content{
@@ -53,7 +54,7 @@ body{
 }
 
 .text h3{
-    color: rgb(0, 221, 255);
+    color: rgb(11, 53, 151);
 }
 
 .text h1{
