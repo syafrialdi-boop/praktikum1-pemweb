@@ -1,13 +1,16 @@
 body{
-    background-color: #2e0000;
+    background-color: #0599be;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    min-height: 100vh;
     background-color: white;
     box-shadow: 2px 2px 10px gray;
+    overflow: hidden;
 }
 
 .header{
@@ -39,12 +42,13 @@ body{
 }
 
 .header ul li a:hover{
-    color: rgb(0, 110, 255);
+    color: rgb(43, 0, 255);
 }
 
 .content{
-    height: 500px;
     padding: 50px;
+    overflow: hidden;
+    min-height: 500px;
 }
 
 .text{
@@ -52,16 +56,28 @@ body{
     float: left;
 }
 
-.text h3{
-    color: rgb(0, 221, 255);
-}
-
 .text h1{
     font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.text h3{
+    color: rgb(0, 221, 255);
+    margin-top: 15px;
 }
 
 .text p{
     color: gray;
+    line-height: 25px;
+}
+
+.text ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text ul li{
+    margin-bottom: 8px;
 }
 
 button{
