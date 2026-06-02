@@ -1,0 +1,38 @@
+*.html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-color: aliceblue;
+}
+
+main img{
+    width: 300px;
+}
